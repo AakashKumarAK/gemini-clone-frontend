@@ -29,7 +29,7 @@ A Gemini-style chat frontend built with Next.js 15, Tailwind CSS, Zustand for st
 - Axios
 
 ## How to run locally
-1. `git clone <repo>`
+1. `git clone <https://github.com/AakashKumarAK/gemini-clone-frontend.git>`
 2. `cd gemini-frontend`
 3. `npm install`
 4. `npm run dev`
