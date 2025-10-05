@@ -1,6 +1,6 @@
 # Gemini Frontend Clone
 
-Live: <your deployed URL>
+Live: (https://gemini-clone-frontend-one.vercel.app/)
 
 ## Overview
 A Gemini-style chat frontend built with Next.js 15, Tailwind CSS, Zustand for state management. OTP login simulation, chatroom management, simulated AI responses, image upload (base64), reverse infinite scroll, pagination, dark mode, and toast notifications.
@@ -106,5 +106,4 @@ gemini-clone/                 # Project root
 ## Deployment
 - Deploy on Vercel (recommended): connect repository, select `npm run build` and `next start`, environment variables none needed.
 
-## Screenshots
-(Include screenshots of Login, Dashboard, Chat UI)
+
