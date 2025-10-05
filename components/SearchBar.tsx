@@ -10,7 +10,7 @@ export default function SearchBar({ value, onChange }: {value:string; onChange:(
       value={value}
       onChange={(e)=>onChange(e.target.value)}
       placeholder="Search chatrooms..."
-      className="w-full px-3 py-2 border rounded"
+      className="w-full px-3 py-2 border rounded text-slate-800 dark:text-slate-200 dark:bg-slate-700 dark:border-slate-600"
       aria-label="Search chatrooms"
       
     />
