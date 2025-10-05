@@ -2,7 +2,7 @@ import create from "zustand";
 import { persist } from "zustand/middleware";
 import { Chatroom, Message } from "./types";
 import { sampleChatroom } from "./dummy-data";
-import { nanoid } from "nanoid";
+
 
 type AuthState = {
   userPhone?: string;
@@ -33,7 +33,7 @@ export const useAuthStore = create<AuthState>()(
 
 export const useChatStore = create<ChatState>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       chatrooms: [ sampleChatroom() ],
       createChatroom: (title) => {
         const newRoom: Chatroom = {

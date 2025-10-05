@@ -1,5 +1,5 @@
 import { Chatroom, Message } from "./types";
-import { nanoid } from "nanoid";
+
 
 export const createDummyMessages = (count=60) => {
   const msgs: Message[] = [];

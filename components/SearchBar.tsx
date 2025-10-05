@@ -3,7 +3,7 @@ import React from "react";
 // import useDebounce from "@/hooks/useDebounce";
 
 export default function SearchBar({ value, onChange }: {value:string; onChange:(v:string)=>void}) {
-//   const debounced = useDebounce(value, 400);
+  // const debounced = useDebounce(value, 400);
   // Parent should read the value prop and filter when debounced changes; to simplify just call onChange as user types
   return (
     <input
@@ -12,6 +12,7 @@ export default function SearchBar({ value, onChange }: {value:string; onChange:(
       placeholder="Search chatrooms..."
       className="w-full px-3 py-2 border rounded"
       aria-label="Search chatrooms"
+      
     />
   );
 }
